@@ -1,14 +1,34 @@
 {
-  "name": "cloudflare-watch",
+  "name": "@netzon-oss/cloudflare-watch",
+  "keywords": [
+    "cloudflare",
+    "watch",
+    "pingdom"
+  ],
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "test": "tests"
+  },
   "version": "1.0.0",
   "description": "Set of tools for monitoring Cloudflare services.",
   "main": "./dist/index.js",
   "bin": {
       "greet": "./dist/index.js"
   },
+  "engines": {
+    "node": ">=18.14.2",
+    "npm": ">=9.5.0"
+  },
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/netzon/cloudflare-watch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzon/cloudflare-watch.git"
   },
   "author": "gil.regalado@netzontech.com",
   "license": "ISC",
