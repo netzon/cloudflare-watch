@@ -11,7 +11,7 @@
   "directories": {
     "test": "tests"
   },
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Set of tools for monitoring Cloudflare services.",
   "main": "./dist/index.js",
   "bin": {
