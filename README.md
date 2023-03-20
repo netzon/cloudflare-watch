@@ -16,6 +16,7 @@ __Only supports https://my.pingdom.com/probes/ipv4 for now! Some issues encounte
 
 ```bash
 cw pingdom \
+     --output "output.json" \
      --sourceUrl "https://my.pingdom.com/probes/ipv4" \
      --listId "{cloudflare_list_id}" \
      --tokenIpInfo "{ipinfo_token}" \
@@ -28,6 +29,7 @@ cw pingdom \
 
 ```bash
 npm run build && node dist/index.js pingdom \
+     --output "output.json" \
      --sourceUrl "https://my.pingdom.com/probes/ipv4" \
      --listId "{cloudflare_list_id}" \
      --tokenIpInfo "{ipinfo_token}" \
