@@ -1,0 +1,25 @@
+{
+  "name": "cloudflare-watch",
+  "version": "1.0.0",
+  "description": "Set of tools for monitoring Cloudflare services.",
+  "main": "./dist/index.js",
+  "bin": {
+      "greet": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gil.regalado@netzontech.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}
