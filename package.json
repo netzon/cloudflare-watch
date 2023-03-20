@@ -15,7 +15,8 @@
   "description": "Set of tools for monitoring Cloudflare services.",
   "main": "./dist/index.js",
   "bin": {
-      "greet": "./dist/index.js"
+    "cloudflare-watch": "./dist/index.js",
+    "cw": "./dist/index.js"
   },
   "engines": {
     "node": ">=18.14.2",
