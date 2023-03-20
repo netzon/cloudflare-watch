@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import figlet from 'figlet';
 import { Command } from 'commander';
 import { pingdomAction } from './actions/pingdomAction';
